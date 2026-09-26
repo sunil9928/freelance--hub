@@ -66,19 +66,19 @@ function Home() {
 
         <div className="feature-grid">
           <FeatureCard
-            image="/images/find-talent.png"
+            image={`${import.meta.env.BASE_URL}images/find-talent.png`}
             title="Find Talent"
             description="Discover skilled freelancers based on skills, budget and experience."
             link="#freelancers"
           />
           <FeatureCard
-            image="/images/find-project.png"
+            image={`${import.meta.env.BASE_URL}images/find-project.png`}
             title="Find Projects"
             description="Explore exciting projects and find opportunities that match your skills."
             link="#jobs"
           />
           <FeatureCard
-            image="/images/grow-career.png"
+            image={`${import.meta.env.BASE_URL}images/grow-career.png`}
             title="Grow Your Career"
             description="Build your profile, work with clients and grow your freelance career."
             link="#how-it-works"

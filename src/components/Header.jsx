@@ -1,8 +1,10 @@
 function Header() {
+  const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
+
   return (
     <header className="site-header">
-      <a href="/" className="logo">
-        <img src="/images/freelancehub-logo.png" alt="FreelanceHub" />
+      <a href="#home" className="logo">
+        <img src={asset("images/freelancehub-logo.png")} alt="FreelanceHub" />
       </a>
 
       <nav className="main-nav">

@@ -66,13 +66,13 @@ function Home() {
 
         <div className="feature-grid">
           <FeatureCard
-            image="public/images/find-talent.png"
+            image="/images/find-talent.png"
             title="Find Talent"
             description="Discover skilled freelancers based on skills, budget and experience."
             link="#freelancers"
           />
           <FeatureCard
-            image="public/images/find-project.png"
+            image="/images/find-project.png"
             title="Find Projects"
             description="Explore exciting projects and find opportunities that match your skills."
             link="#jobs"

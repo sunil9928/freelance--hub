@@ -4,10 +4,11 @@ import ApplicationForm from "../components/ApplicationForm";
 
 function Jobs() {
   const [selectedJob, setSelectedJob] = useState(null);
+  const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
 
   const jobs = [
     {
-      image: "/images/job1.jpg",
+      image: asset("images/job1.jpg"),
       title: "React Website Development",
       company: "TechNova",
       skills: "React • JavaScript • CSS",
@@ -15,7 +16,7 @@ function Jobs() {
       budget: "₹25K - ₹40K",
     },
     {
-      image: "/images/job2.jpg",
+      image: asset("images/job2.jpg"),
       title: "UI/UX Design for Mobile App",
       company: "AppWorks",
       skills: "Figma • UI Design • UX",
@@ -23,7 +24,7 @@ function Jobs() {
       budget: "₹15K - ₹30K",
     },
     {
-      image: "/images/job3.jpg",
+      image: asset("images/job3.jpg"),
       title: "Business Dashboard",
       company: "DataFlow",
       skills: "Power BI • SQL • Excel",
@@ -31,7 +32,7 @@ function Jobs() {
       budget: "₹30K - ₹50K",
     },
     {
-      image: "/images/job4.jpg",
+      image: asset("images/job4.jpg"),
       title: "E-Commerce Website",
       company: "ShopGrid",
       skills: "React • Node.js • MongoDB",
@@ -39,7 +40,7 @@ function Jobs() {
       budget: "₹40K - ₹70K",
     },
     {
-      image: "/images/job5.jpg",
+      image: asset("images/job5.jpg"),
       title: "WordPress Website",
       company: "WordPress Project",
       skills: "WordPress • PHP • CSS",
@@ -47,7 +48,7 @@ function Jobs() {
       budget: "₹20K - ₹35K",
     },
     {
-      image: "/images/job6.jpg",
+      image: asset("images/job6.jpg"),
       title: "Python Data Analysis",
       company: "InsightLabs",
       skills: "Python • Pandas • SQL",

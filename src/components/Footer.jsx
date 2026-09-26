@@ -1,10 +1,12 @@
 function Footer() {
+  const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
+
   return (
     <footer className="main-footer">
       <div className="footer-top">
         <div className="footer-brand">
-          <a href="/" className="footer-logo">
-            <img src="/images/freelancehub-logo1.png" alt="FreelanceHub" />
+          <a href="#home" className="footer-logo">
+            <img src={asset("images/freelancehub-logo1.png")} alt="FreelanceHub" />
           </a>
 
           <p>

@@ -51,9 +51,7 @@ function Footer() {
       <div className="footer-bottom">
         <p>© 2026 FreelanceHub. All rights reserved.</p>
         <div>
-          <a href="#terms">Terms</a>
-          <a href="#privacy">Privacy</a>
-          <a href="#cookies">Cookies</a>
+         
         </div>
       </div>
     </footer>
